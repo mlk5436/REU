@@ -1,0 +1,103 @@
+
+<html>
+<header>
+<title>Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{
+  margin:0;
+  padding:0;
+}
+div.profile{
+  background-color:WhiteSmoke;
+  height:350px;
+  width:200px;
+  border: 1px solid gray;
+}
+div.header{
+  background-color: #666666;
+  width:100%;
+  height:10%;
+}
+div.footer{
+  background-color: #666666;
+  width:100%;
+  height:5%;
+}
+body{
+  background-image: url("../img/profilepage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+  height: 95%;
+  min-width:1280px;
+  width: auto;
+}
+div.logo{
+  background-image: url("../img/bandwagon_logo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  width: 24.5%;
+  height: 100%;
+}
+div.main{
+  width:45%;height:80%;background-color:WhiteSmoke;float:left;border: 1px solid gray;
+}
+</style>
+</header>
+<body>
+  <div class="header">
+    <div align="center">
+      <div class="logo"></div>
+    </div>
+  </div>
+  <div style='padding-left:10%'>
+  <div align="left"style='padding-top:2.5%;height:80%;padding-left:7.5%;float:left;padding-right:2.5%'>
+    <div class="profile" align="center" style='padding-top:10%'>
+      <img src="../img/profileimg.jpg" alt="Profile Image" style='width:50%;height:30%;border:2px solid white'>
+      <p style='font-family:Arial,sans-serif'><br> <font size="3"><b>Meng Kry</b></font></p>
+        <p style='font-family:Arial,sans-serif;padding-top:2%'><font size="2" color="gray">Position: n/a</font></p><br>
+      <div style='background-color:gray;width:100%;height:1px'></div>
+        <p style='font-family:Arial,sans-serif;'><br><font color="deepskyblue" size="5">0</font></p>
+        <p style='font-family:Arial,sans-serif;color:gray;'><font size="2">Who's viewed your profile</font></p><br>
+      <div style='background-color:lightgray;width:90%;height:1px'></div>
+        <p style='font-family:Arial,sans-serif;'><br><font color="deepskyblue" size="5">0</font></p>
+        <p style='font-family:Arial,sans-serif;color:gray;'><font size="2">Connections</font></p><br>
+    </div>
+  </div>
+  <div style='padding-top:2.5%;'>
+    <div class="main">
+      <p style='font-family:Arial,sans-serif;padding-left:5%'><br> <font size="3">Complete Your Profile</font></p>
+      <div align="center" style="padding-top:2.5%">
+        <div style='background-color:lightgray;width:90%;height:1px;'></div>
+      </div>
+      <div  style="padding-left:10%;padding-top:2.5%">
+        <form action="./bandwagon_complete.html">
+        <font size="2"color="gray" face="Arial,sans-serif">First name</font>
+        <font size="2" color="gray" face="Arial,sans-serif" style='padding-left:140px'>Last name</font><br>
+        <input type="text" name="firstname" value=""style='width:200px; height:25px'>
+        <input type="text" name="lastname" value="" style='width:200px;height:25px'><br><br>
+        <p style='font-size:14px;color:gray;font-family:Arial,sans-serif'>Email</p>
+        <input type="text" name="Email" value="" style='width:405px;height:25px'><br><br>
+        <p style='font-size:14px;color:gray;font-family:Arial,sans-serif'>Password (6 or more characters)</p>
+        <input type="text" name="Password" value="" style='width:405px;height:25px'><br><br>
+        <p style='font-size:14px;color:gray;font-family:Arial,sans-serif'>Position</p>
+        <input type="text" name="Address" value="" style='width:405px;height:25px'><br><br>
+        <font size="2"color="gray" face="Arial,sans-serif">Country</font>
+        <font size="2" color="gray" face="Arial,sans-serif" style='padding-left:155px'>Zip Code</font><br>
+        <input type="text" name="Country" value=""style='width:200px; height:25px'>
+        <input type="text" name="ZipCode" value="" style='width:200px;height:25px'><br><br>
+        <p style='font-size:14px;color:gray;font-family:Arial,sans-serif'>Industry</p>
+        <input type="text" name="Industry" value="" style='width:405px;height:25px'><br><br>
+        <input type="submit" value="submit" style='width:200px'>
+        <input type="submit" value="Skip" style='width:200px'>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<footer>
+</footer>
+</html>
